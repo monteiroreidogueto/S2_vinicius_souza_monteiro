@@ -16,13 +16,13 @@ def main():
 
         if opcao == "1":
             loja.listar_carros()
-        elif opcao == "2":
+        
             modelo_carro = input("Digite o modelo do carro: ")
             quantidade = int(input("Digite a quantidade: "))
             loja.adicionar_ao_carrinho(modelo_carro, quantidade)
         elif opcao == "3":
             loja.exibir_carrinho()
-        elif opcao == "4":
+       
             loja.realizar_compra()
         else:
             print("Opção inválida. Tente novamente.")
