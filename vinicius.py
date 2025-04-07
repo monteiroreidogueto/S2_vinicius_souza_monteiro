@@ -14,7 +14,6 @@ def main():
 
         opcao = input("Escolha uma opção (1-5): ")
 
-        
         if opcao == "1":
             loja.listar_carros()
         elif opcao == "2":
